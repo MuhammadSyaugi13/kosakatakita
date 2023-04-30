@@ -1,3 +1,5 @@
+alert('hello gaisss')
+
 console.log(new Date())
 
 function formatDate(date = new Date()) {
