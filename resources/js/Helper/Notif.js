@@ -23,4 +23,4 @@ setInterval(() => {
             console.log(data[data.bahasa])
         })
         .catch((err) => console.log(err))
-}, 1200000);
+}, 20000);
