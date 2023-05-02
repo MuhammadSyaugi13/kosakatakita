@@ -18,4 +18,4 @@ setInterval(() => {
             })
         })
         .catch((err) => console.log(err))
-}, 20000);
+}, 1200000);
