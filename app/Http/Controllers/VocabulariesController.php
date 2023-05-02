@@ -68,7 +68,7 @@ class VocabulariesController extends Controller
                 $data[] = ["Indonesia" => $value->indonesia, "English" => $value->english];
             }
             
-            $allDataNotifikasi = Notifikasi::create([
+            $dataNotifikasi = Notifikasi::create([
                 'user_id' => auth()->id(),
                 'kosakata' => json_encode($data),
                 'index_tampil' => '[0,1,2,3,4]',

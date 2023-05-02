@@ -13,7 +13,7 @@ function formatDate(date = new Date()) {
 const this_day = formatDate(new Date())
 
 setInterval(() => {
-    fetch('http://127.0.0.1:8000/getNotification')
+    fetch('https://kosakatakita.online/getNotification')
         .then((response) => response.text())
         .then((response) => {
             const data = JSON.parse(response)
